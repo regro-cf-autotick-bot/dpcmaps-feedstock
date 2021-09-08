@@ -42,7 +42,7 @@ test:
     - pip
 
 about:
-  home: https://github.com//dpcmaps
+  home: https://github.com//NSLS-II//dpcmaps
   summary: Software for generating and analysis of DPC Maps
   license: BSD-3-Clause
   license_file: LICENSE
