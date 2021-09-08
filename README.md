@@ -1,13 +1,17 @@
 About dpcmaps
 =============
 
-Home: https://github.com//dpcmaps
+Home: https://github.com/NSLS-II/dpcmaps
 
 Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dpcmaps-feedstock/blob/master/LICENSE.txt)
 
-Summary: Software for generating and analysis of DPC Maps
+Summary: Software for Diffraction Phase Correlation (DPC) analysis
+
+Development: https://github.com/NSLS-II/dpcmaps
+
+Documentation: http://nsls-ii.github.io/dpcmaps
 
 Current build status
 ====================
