@@ -1,5 +1,5 @@
 {% set name = "dpcmaps" %}
-{% set version = "1.1.4" %}
+{% set version = "1.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a6b62debfbf3e3e841d2d9455fa096c8de3612e61ad46c69e0fa6b8974498298
+  sha256: 3eabf6b82ba40c04a6c6096a5b69860850a21b8ea5d3cae6d8ce35b58efd6905
 
 build:
   number: 0
