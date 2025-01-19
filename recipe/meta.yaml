@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 622ce8d820d3c1550704bdf39b2c002bfb1f2c941d74173813b5f6aa552f698f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - dpcmaps = dpcmaps.dpc_gui:run_dpc_gui
@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - h5py
     - matplotlib-base
     - numpy
@@ -39,6 +39,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/NSLS-II/dpcmaps
